@@ -107,7 +107,7 @@ const photos = [
         avatar: "https://i.pravatar.cc/150?img=59",
         name: "Nat B",
         bio: "I am a portrait photographer in Michigan, and happily share my hard work so others can find and use my photos for FREE!",
-        followers: 220
+        followers: 230
       },
       likes: 100
     },
