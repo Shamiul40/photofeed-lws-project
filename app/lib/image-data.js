@@ -157,7 +157,7 @@ const photos = [
         bio: "I am a portrait photographer in Michigan, and happily share my hard work so others can find and use my photos for FREE!",
         followers: 220
       },
-      likes: 100
+      likes: 120
     },
     {
       id: "154ca3f8-07ec-464f-9eac-6775ec37bba1",
