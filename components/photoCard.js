@@ -2,15 +2,15 @@ import Image from "next/image";
 import Link from "next/link";
 
 
-export default function PhotoCard() {
+export default function PhotoCard({photo}) {
   return (
     <div>
-     <Link href="/" className="group">
-        <Image src="https://source.unsplash.com/ztpUS4N1xhY" alt="" />
+     <Link href={`photos/${photo.id}`} className="group">
+        <Image src={photo.url} alt={photo.title} width={700} height={700} />
 
         {/* <!-- title --> */}
         <div className="title-container">
-          <h4 className="title">The Beautiful Nature</h4>
+          <h4 className="title">{photo.title}</h4>
         </div>
       </Link>
     </div>

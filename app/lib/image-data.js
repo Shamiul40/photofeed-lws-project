@@ -243,15 +243,9 @@ const photos = [
 
   
   export const getAllPhotos = () =>{
-     const photo =photos.map(photo=> {
-     const  {id, title, url} = photo
+     
 
-     return {id, title, url}
-        
-     }
-     )
-
-    return  photo
+    return  photos
   } 
 
   
