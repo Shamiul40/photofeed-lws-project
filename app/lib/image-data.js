@@ -243,7 +243,13 @@ const photos = [
 
   
   export const getAllPhotos = () =>{
-    return photos
+     const photo =photos.map(photo=> {
+      return   {id, title, url} = photo
+        
+     }
+     )
+
+    return  photo
   } 
 
   
