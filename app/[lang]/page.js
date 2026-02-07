@@ -1,10 +1,15 @@
 import Image from "next/image";
+import { getDictionary } from "./dictionary/dictionary";
 
-export default function Home() {
+export default async function Home({params :{lang}}) {
+
+  const dictionaries = await getDictionary(lang)
+
+
   return (
     <div 
     >
-      home page
+      <h1>{dictionaries.views}</h1>
     </div>
   );
 }

@@ -1,3 +1,4 @@
+
 import { match } from "@formatjs/intl-localematcher";
 import Negotiator from "negotiator";
 import { NextResponse } from "next/server";
@@ -14,7 +15,7 @@ export function getLocale(request) {
 }
 
 export async function middleware(request) {
-  const pathName = request.nextUrl.pathName;
+  const pathName = request.nextUrl.pathname;
 
   const pathNameIsMissingInLocale = locales.every(
     (locale) =>
