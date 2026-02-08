@@ -6,7 +6,7 @@ export default function PhotoCard({photo}) {
   return (
     <div>
       <h1>shamiul islam</h1>
-      <p className="sr-only">{photo.url}</p> 
+      
       <p className="sr-only">{photo.id}</p> 
       <p className="sr-only">{photo.title}</p> 
      <Link href={`photos/${photo.id}`} className="group">
