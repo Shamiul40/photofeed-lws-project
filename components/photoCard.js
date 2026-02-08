@@ -8,7 +8,7 @@ export default function PhotoCard({photo}) {
 
       
       
-      <p className="sr-only">{photo.title}</p> 
+    
       
      <Link href={`photos/${photo.id}`} className="group">
         <Image  src={"https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=700&q=80"} alt={photo.title} width={700} height={700} />
