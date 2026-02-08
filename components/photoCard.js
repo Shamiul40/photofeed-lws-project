@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function PhotoCard({photo}) {
   return (
     <div>
-      <h1>shamiul islam</h1>
+
       
       
       <p className="sr-only">{photo.title}</p> 
