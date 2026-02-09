@@ -6,5 +6,6 @@ export default function Photos({photos}) {
     <div className="img-grid">
       {photos.map(photo=><PhotoCard key={photo.id} photo={photo}></PhotoCard>)}
     </div>
+    
   )
 }
