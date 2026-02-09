@@ -14,7 +14,7 @@ export default function PhotoCard({ photo }) {
           height={700}
         />
 
-        {/* <!-- title --> */}
+        
         <div className="title-container">
           <h4 className="title">{photo.title}</h4>
         </div>
