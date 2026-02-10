@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 
 export default function PhotoCards({ photo }) {
-  console.log(photo);
+
   return (
     <Link href={`/photos/${photo.id}`} className="group">
       <Image src={photo.url} alt={photo.title} width={700} height={700} />
