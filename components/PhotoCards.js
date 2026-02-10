@@ -5,13 +5,15 @@ import React from 'react'
 export default function PhotoCards({photo}) {
     console.log(photo)
   return (
-    <div className=''>
-        <Link href="/" className='group'>
-                <h1>{photo.id}</h1>
-                <h1>{photo.title}</h1>
+   
+        <Link href={`/photos/${photo.id}`} className='group'>
+            
 
                 <Image src={photo.url} alt={photo.title} width={700} height={700}/>
+                <div className='title-container'>
+                    <h4 className='title'> {photo.title}</h4>
+                </div>
         </Link>
-    </div>
+   
   )
 }

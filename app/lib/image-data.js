@@ -66,7 +66,7 @@ const photos = [
   {
     id: "a7f14fb2-9b2d-43bb-98af-6c70158e9c55",
     title: "The White Warmth",
-    url: "https://images.unsplash.com/photo-1490066776505-da175a028fc0?w=700&q=80",
+    url: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=700&q=80",
     tags: ["nature", "flower", "green"],
     views: "6M",
     share: "2.56M",
