@@ -13,7 +13,7 @@ export default async function Home() {
     // console.log("All photos:", photos);
 
   return (
-    <div>
+    <div className="container my-4 lg:my-8">
       <PhotoList photos={photos}></PhotoList>
     </div>
   );
