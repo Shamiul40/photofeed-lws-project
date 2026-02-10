@@ -1,3 +1,4 @@
+import PhotoList from "@/components/PhotoList";
 
 
 export default async function Home() {
@@ -7,13 +8,13 @@ export default async function Home() {
 
     const response = await fetch(`${process.env.BASE_API_URL}/photos`)
     const photos =  await response.json();
-    console.log("Photos from API:", photos.length, "photos received");
-    console.log("First photo:", photos[0]);
-    console.log("All photos:", photos);
+    // console.log("Photos from API:", photos.length, "photos received");
+    // console.log("First photo:", photos[0]);
+    // console.log("All photos:", photos);
 
   return (
     <div>
-    <h1>shamiul islma</h1>
+      <PhotoList photos={photos}></PhotoList>
     </div>
   );
 }
