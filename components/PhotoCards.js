@@ -1,19 +1,15 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import React from 'react'
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
 
-export default function PhotoCards({photo}) {
-    console.log(photo)
+export default function PhotoCards({ photo }) {
+  console.log(photo);
   return (
-   
-        <Link href={`/photos/${photo.id}`} className='group'>
-            
-                                        <h1>{photo.id}</h1>
-                <Image src={photo.url} alt={photo.title} width={700} height={700}/>
-                <div className='title-container'>
-                    <h4 className='title'> {photo.title}</h4>
-                </div>
-        </Link>
-   
-  )
+    <Link href={`/photos/${photo.id}`} className="group">
+      <Image src={photo.url} alt={photo.title} width={700} height={700} />
+      <div className="title-container">
+        <h4 className="title"> {photo.title}</h4>
+      </div>
+    </Link>
+  );
 }
