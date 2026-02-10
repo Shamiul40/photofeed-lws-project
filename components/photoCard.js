@@ -16,6 +16,7 @@ export default function PhotoCard({ photo }) {
       
         <div className="title-container">
           <h4 className="title">{photo.title}</h4>
+          <h4 className="title">{photo.id}</h4>
         </div>
       </Link>
     </div>
