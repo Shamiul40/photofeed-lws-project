@@ -25,6 +25,6 @@
     @apply absolute bottom-0 w-full text-center bg-black/50 py-2 transition-all duration-500 opacity-0 group-hover:opacity-100;
   }
   .title {
-    @apply text-white font-semibold text-base lg:text-lg;
+    @apply text-black font-semibold text-base lg:text-lg;
   }
 }
