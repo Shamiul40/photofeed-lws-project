@@ -226,7 +226,7 @@ const photos = [
   {
     id: "f536658e-a274-431f-843d-34116dcc1b7e",
     title: "The Beautiful Nature",
-    url: "https://images.unsplash.com/photo-1490066776505-da175a028fc0?w=700&q=80",
+    url: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=700&q=80",
     tags: ["nature", "river", "ocean"],
     views: "10M",
     share: "4.56M",
