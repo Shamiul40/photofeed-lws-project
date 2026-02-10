@@ -243,6 +243,7 @@ const photos = [
 
 export const getAllPhotos = () => {
   return photos;
+  
 };
 
 export const getPhotoById = (id) => {
