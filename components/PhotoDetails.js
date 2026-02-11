@@ -6,8 +6,13 @@ export default async function PhotoDetails({id, lang}) {
 
     // const response = await fetch(`${process.env.BASE_API_URL}/photos/${id}`)
     const response = await fetch(`${process.env.BASE_API_URL}/photos/${id}`);
-    const photo = await response.json(response)
-    console.log("Photo url:", photo.url);
+    
+    if (!response.ok) {
+        throw new Error(`Failed to fetch photo: ${response.status}`);
+    }
+    
+    const photo = await response.json()
+
 
     const dictionary = await getDictionary(lang)
 
